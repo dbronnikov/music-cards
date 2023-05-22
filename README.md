@@ -6,15 +6,11 @@ Click the image below to see a video of it being used
 
 ## Requires
 ### software:
-- python evdev. To install:
+- install dependencies:
 ```bash
-wget http://dl.piwall.co.uk/python-evdev_0.4.1-1_armhf.deb
-
-dpkg -i python-evdev_0.4.1-1_armhf.deb
-```
-- python mpd-2. To install
-```bash
+sudo apt install pip
 pip install python-mpd2
+pip install evdev
 ```
 ### hardware:
 - [Raspberry Pi Zero (Don't forget micro sd card and power supply)](http://www.microcenter.com/product/486575/Zero_W)
