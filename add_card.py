@@ -11,4 +11,4 @@ while True:
         if plist=="q":
                 break
         cardList.addPlaylist(card, plist)
-print "Exiting"
+print("Exiting")
